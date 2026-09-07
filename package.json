@@ -1,0 +1,41 @@
+{
+  "name": "siri-wave",
+  "version": "1.0.0",
+  "description": "Siri-style animated wave and pulsing blob loader, built entirely from FSCSS mixins with pure css.",
+  "extension": "fscss",
+  "fscss_version": ">=1.2.0",
+  "blocked_methods": [],
+  "repository": "https://github.com/Koolkidkonrad/siri-wave.fscss",
+  "file": {
+    "usage": {
+      "directive": "siri-*",
+      "helpers": [
+        "siri-tokens(root:root)",
+        "siri-base(st:.siri-wave)",
+        "siri-wave(st:.siri-wave)",
+        "siri-line(st:.siri-line)",
+        "siri-blob(st:.blob)",
+        "siri-blob-variant(st, color)",
+        "siri-blob-colors(st:.blob)",
+        "siri-wave-preset(st:.siri-wave)"
+      ]
+    },
+    "modules": [
+      "siri-wave.fscss"
+    ],
+    "remote": "siri-wave.fscss"
+  },
+  "author": "Koolkidkonrad",
+  "license": "MIT",
+  "keywords": [
+    "fscss",
+    "siri",
+    "wave",
+    "blob",
+    "loader",
+    "animation",
+    "css",
+    "no-js"
+  ],
+  "bugs": "https://github.com/Koolkidkonrad/siri-wave.fscss/issues"
+}
